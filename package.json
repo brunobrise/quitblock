@@ -1,0 +1,85 @@
+{
+  "name": "quitblock",
+  "displayName": "QuitBlock",
+  "description": "Prompt user for confirmation before quitting VS Code",
+  "version": "0.0.1",
+  "publisher": "brunobrise",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "quitblock.quit",
+        "title": "QuitBlock: Quit"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "quitblock.quit",
+        "key": "cmd+q",
+        "mac": "cmd+q"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "package": "node esbuild.js --production",
+    "lint": "eslint src --ext ts",
+    "format": "prettier --write .",
+    "test": "npm run test-compile && node ./out/test/runTest.js",
+    "test-compile": "tsc -p ./tsconfig.json",
+    "prepare": "husky",
+    "version:patch": "npm version patch -m \"chore(release): %s\"",
+    "version:minor": "npm version minor -m \"chore(release): %s\"",
+    "version:major": "npm version major -m \"chore(release): %s\"",
+    "prerelease": "standard-version --prerelease",
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:dry": "standard-version --dry-run",
+    "postrelease": "git push --follow-tags origin main && npm run publish:vsce",
+    "publish:vsce": "vsce publish",
+    "publish:ovsx": "ovsx publish"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.74.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9",
+    "esbuild": "^0.20.0",
+    "eslint": "^8.56.0",
+    "glob": "^10.3.10",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.2.0",
+    "mocha": "^10.3.0",
+    "ovsx": "^0.8.3",
+    "prettier": "^3.2.5",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.3.3",
+    "vsce": "^2.15.0"
+  },
+  "lint-staged": {
+    "*.{ts,js,json,md,yml}": [
+      "prettier --write"
+    ],
+    "*.ts": [
+      "eslint --fix"
+    ]
+  }
+}
