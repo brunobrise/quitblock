@@ -38,6 +38,17 @@
         "key": "ctrl+shift+w",
         "win": "ctrl+shift+w",
         "linux": "ctrl+shift+w"
+      },
+      {
+        "command": "quitblock.quit",
+        "key": "cmd+w",
+        "mac": "cmd+w"
+      },
+      {
+        "command": "quitblock.quit",
+        "key": "ctrl+w",
+        "win": "ctrl+w",
+        "linux": "ctrl+w"
       }
     ]
   },

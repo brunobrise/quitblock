@@ -13,7 +13,8 @@
 
 ## 🚀 How to Use
 
-Simply use your usual quit shortcut (`Cmd+Q` on Mac) or window close shortcut (`Cmd+Shift+W` on Mac), or run the command **"QuitBlock: Quit"** from the Command Palette (`Cmd+Shift+P`).
+Simply use your usual quit shortcut (`Cmd+Q` on Mac) or window/editor close shortcuts (`Cmd+Shift+W`, `Cmd+W` on Mac), or run the command **"QuitBlock: Quit"** from the Command Palette (`Cmd+Shift+P`).
+
 
 
 ## 🛠️ Configuration
