@@ -27,6 +27,17 @@
         "command": "quitblock.quit",
         "key": "cmd+q",
         "mac": "cmd+q"
+      },
+      {
+        "command": "quitblock.quit",
+        "key": "cmd+shift+w",
+        "mac": "cmd+shift+w"
+      },
+      {
+        "command": "quitblock.quit",
+        "key": "ctrl+shift+w",
+        "win": "ctrl+shift+w",
+        "linux": "ctrl+shift+w"
       }
     ]
   },
