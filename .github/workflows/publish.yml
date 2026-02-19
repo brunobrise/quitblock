@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: Package Extension
-        run: npm run package
+        run: npm run vsix
 
       - name: Publish to VS Code Marketplace
         if: success() && env.VSCE_PAT != ''
