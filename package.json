@@ -14,6 +14,9 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "extensionKind": [
+    "ui"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [

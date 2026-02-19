@@ -10,6 +10,7 @@
   - **Close current window**: Closes only the active VS Code window while keeping others open.
   - **Cancel**: Dismisses the prompt and returns to your code.
 - **System Integration**: Replaces the default `Cmd+Q` behavior seamlessly on macOS.
+- **Remote Ready**: Runs locally side-by-side with remote workspaces (SSH, WSL, Containers) without needing installation on the remote server.
 
 ## 🚀 How to Use
 
