@@ -1,7 +1,5 @@
 # QuitBlock 🛡️
 
-![QuitBlock Banner](assets/banner.png)
-
 **QuitBlock** is the ultimate safety net for VS Code. It intercepts native workspace-closing shortcuts (like `Cmd+Q` or `Cmd+W`) and presents a smart confirmation menu, ensuring you never accidentally exit your editor or lose the context of your unsaved work again.
 
 ![QuitBlock Demo](assets/demo.png)
