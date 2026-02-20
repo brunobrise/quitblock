@@ -2,7 +2,7 @@
   "name": "quitblock",
   "displayName": "QuitBlock",
   "description": "A clever safety net that intercepts workspace-closing shortcuts (Cmd+Q/Cmd+W). Prevent accidental exits, save your workflow, and never lose unsaved context again.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "brunobrise",
   "icon": "assets/icon.png",
   "license": "MIT",
