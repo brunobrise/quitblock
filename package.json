@@ -45,13 +45,15 @@
       {
         "command": "quitblock.quit",
         "key": "cmd+w",
-        "mac": "cmd+w"
+        "mac": "cmd+w",
+        "when": "!editorIsOpen"
       },
       {
         "command": "quitblock.quit",
         "key": "ctrl+w",
         "win": "ctrl+w",
-        "linux": "ctrl+w"
+        "linux": "ctrl+w",
+        "when": "!editorIsOpen"
       }
     ]
   },
