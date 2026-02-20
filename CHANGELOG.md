@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/brunobrise/linepeek/compare/v1.0.4...v1.0.5) (2026-02-20)
+
+
+### Bug Fixes
+
+* refine tab closing behavior and remove redundant editor option ([f2ece59](https://github.com/brunobrise/linepeek/commit/f2ece59d35ff096a6444bd94a68f8ff8056f1a88))
+
 ### [1.0.4](https://github.com/brunobrise/linepeek/compare/v1.0.3...v1.0.4) (2026-02-19)
 
 

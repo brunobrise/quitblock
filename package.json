@@ -2,7 +2,7 @@
   "name": "quitblock",
   "displayName": "QuitBlock",
   "description": "Prompt user for confirmation before quitting VS Code",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "brunobrise",
   "license": "MIT",
   "engines": {
