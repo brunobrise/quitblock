@@ -1,7 +1,7 @@
 {
   "name": "quitblock",
   "displayName": "QuitBlock",
-  "description": "Prompt user for confirmation before quitting VS Code",
+  "description": "A clever safety net that intercepts workspace-closing shortcuts (Cmd+Q/Cmd+W). Prevent accidental exits, save your workflow, and never lose unsaved context again.",
   "version": "1.0.5",
   "publisher": "brunobrise",
   "license": "MIT",

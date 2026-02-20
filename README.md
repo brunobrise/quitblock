@@ -1,6 +1,8 @@
 # QuitBlock 🛡️
 
-**QuitBlock** is a lightweight VS Code extension that saves you from accidental application exits. It intercepts the "Quit" command (e.g., `Cmd+Q` on macOS) and presents a confirmation menu, ensuring you only close VS Code when you truly mean to.
+![QuitBlock Banner](assets/banner.png)
+
+**QuitBlock** is the ultimate safety net for VS Code. It intercepts native workspace-closing shortcuts (like `Cmd+Q` or `Cmd+W`) and presents a smart confirmation menu, ensuring you never accidentally exit your editor or lose the context of your unsaved work again.
 
 ![QuitBlock Demo](assets/demo.png)
 
